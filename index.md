@@ -21,6 +21,11 @@ Given a podcast episode, its audio, and transcription, return a short text snipp
 The core data for the challenge is the Spotify English-language Podcast Dataset, 
 [available here](https://podcastsdataset.byspotify.com/) for non-commercial use.
 
+## Resources
+
+- Search topics for the 2020 segment retrieval task [train set](https://trecpodcasts.github.io/resources/podcasts_2020_topics_train.xml) [test set](https://trecpodcasts.github.io/resources/podcasts_2020_topics_test.xml)
+- Relevance assessments for the 2020 segment retrieval [train set](https://trecpodcasts.github.io/resources/2020_train_qrels.list) [test set](https://trecpodcasts.github.io/resources/2020_test_qrels.list)
+
 ## Organisers
 
 Ben Carterette, Ann Clifton, Maria Eskevich, Gareth J.F. Jones, Rosie Jones, Jussi Karlgren, Sravana Reddy, Md Iftekhar Tanveer
