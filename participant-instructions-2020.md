@@ -119,17 +119,17 @@ A run will comprise exactly one file per summary, where the name of each summary
 Info about the podcast dataset can be found in the README associated with this track.
 
 ## Timeline
-Document collection released
+* Document collection released
 April 16th, 2020
-Guidelines released
+* Guidelines released
 May 14th, 2020
-Sample topics and qrels released
+* Sample topics and qrels released
 May 22nd, 2020
-Test topics and episodes to summarize released
+* Test topics and episodes to summarize released
 June 12th, 2020
-Runs due
+* Runs due
 Thursday, Sept 3, 2020
-Results released to participants
+* Results released to participants
 Early October, 2020
 
 
@@ -138,15 +138,15 @@ Note: Participants must register to submit.  The dissemination form must be retu
 ## TREC Podcasts 2020 Track Organizers
 
 
-Ann Clifton, Spotify
-Sravana Reddy, Spotify
-Yongze Yu, Spotify
-Aasish Pappu, Spotify
-Jussi Karlgren, Spotify
-Ben Carterette, Spotify
-Jen McFadden, Spotify
-Gareth Jones, Dublin City University
-Maria Eskevich,  CLARIN ERIC
-Rosie Jones, Spotify
+* Ann Clifton, Spotify
+* Sravana Reddy, Spotify
+* Yongze Yu, Spotify
+* Aasish Pappu, Spotify
+* Jussi Karlgren, Spotify
+* Ben Carterette, Spotify
+* Jen McFadden, Spotify
+* Gareth Jones, Dublin City University
+* Maria Eskevich,  CLARIN ERIC
+* Rosie Jones, Spotify
 
 
