@@ -23,11 +23,13 @@ This track will provide tasks, data, and evaluation measures for building next-g
 Given an arbitrary query (a phrase, sentence or set of words), retrieve relevant two-minute segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-199.9] seconds, [120-139.9] seconds, etc.
 #### Topics for Task 1
 Topics will consist of a topic number, keyword query, and a description of the user’s information need.  For example:
+```
 <topic>
 <num>1</num>
 <query>Higgs boson</query>
 <description>I’m looking for news and discussion about the discovery of the Higgs boson. When was it discovered? How? Who was involved? What are the implications of the discovery for physics?</description>
 </topic>
+```
 #### Assessment and Evaluation: Task 1
 
 Two-minute length segments will be judged by NIST assessors for their relevance to the topic description.  NIST assessors will have access to both the ASR transcript (including text before and after the text of the two-segment, which can be used as context) as well as the corresponding audio segment.  Assessments will be made on the PEGFB graded scale (Perfect, Excellent, Good, Fair, Bad) as approximately follows:
@@ -45,25 +47,29 @@ Submission format: ad hoc podcast segment retrieval
 
 Submissions for the ad hoc retrieval task should be in standard TREC 6-column format.
 
+```
 TOPICID   Q0   EPISODEID_OFFSET   RANK   SCORE   RUNID
+```
 
-TOPIC is the unique topic number.  A submission should include at least one result for every topic in the test set.
-Q0 contains the static string “Q0”.  No information is contained in this column.
-The EPISODEID_OFFSET column is the unique identifier for the retrieved segment.  It must consist of an episode URI (unique identifier) concatenated with an offset in seconds to the start of the segment, separated by an underscore character “_”.  The offset must be a multiple of 60 with one decimal place, e.g. “120.0”.  Each entry in this column must be unique to the topic ID.
-RANK is the rank at which the segment has been retrieved.
-SCORE is the system score for the segment.
-RUNID is a unique identifier for the participant and submitted run.
+`TOPIC` is the unique topic number.  A submission should include at least one result for every topic in the test set.
+`Q0` contains the static string “Q0”.  No information is contained in this column.
+The `EPISODEID_OFFSET` column is the unique identifier for the retrieved segment.  It must consist of an episode URI (unique identifier) concatenated with an offset in seconds to the start of the segment, separated by an underscore character “_”.  The offset must be a multiple of 60 with one decimal place, e.g. “120.0”.  Each entry in this column must be unique to the topic ID.
+`RANK` is the rank at which the segment has been retrieved.
+`SCORE` is the system score for the segment.
+`RUNID` is a unique identifier for the participant and submitted run.
 
 Participants may submit up to 5 runs, each a separate 6-column file consisting of ranked results for all topics in the test set.  Participants are asked to return a ranked list of at most 1,000 segments for each topic. 
 
 Example submission
 
+```
 1  Q0  spotify:episode:000A9sRBYdVh66csG2qEdj_120.0  1  67.2  myrun1
 1  Q0  spotify:episode:3ZUU9IO0V8kaZaUPD6qqDY_540.0  2  65.8  myrun1
-…
+...
 1  Q0  spotify:episode:3ZUU9IO0V8kaZaUPD6qqDY_360.0  1000  12.2  myrun1
 2  Q0  spotify:episode:000HP8n3hNIfglT2wSI2cA_60.0  1  87.8  myrun1
-… 
+...
+```
 
 ## Task 2: Summarization
 
