@@ -15,7 +15,7 @@ The Podcasts Track has two challenge tasks: segment retrieval and podcast episod
 
 Given a query, retrieve relevant two-minute segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-199.9] seconds, [120-139.9] seconds, etc. The two-minute segments are judged manually by NIST assessors for their relevance to the query, using both the transcript of the podcast as well as the corresponding audio segment.  Assessments were made on a graded scale of Perfect, Excellent, Good, Fair, Bad. (The Perfect score pertains only to queries with a given target item.)
 
-In 2020 there were three types of queries: topical, known-item, and refinding queries. In 2021 some new types will be added. 
+In 2020 there were three types of queries: topical, known-item, and refinding queries. In 2021 we will combine the refinding queries and the known-item queries, and add some non-topical target notions. The exact task formulation will be released in early April 2021.
 
 #### Resources
 
@@ -25,6 +25,7 @@ In 2020 there were three types of queries: topical, known-item, and refinding qu
 * Relevance assessments ("qrels") for the 2020 segment retrieval task
     * [train set](https://trecpodcasts.github.io/resources/2020_train_qrels.list)
     * [test set](https://trecpodcasts.github.io/resources/2020_test_qrels.list)
+* 2020 [Participant Guidelines](participant-instructions-2020.md)
 
 ### Task 2: Summarisation
 
@@ -44,3 +45,11 @@ An overview of the 2020 edition of the track is given in
 Ben Carterette, Ann Clifton, Maria Eskevich, Gareth J.F. Jones, Rosie Jones, Jussi Karlgren, Sravana Reddy, Md Iftekhar Tanveer
 
 
+Ben Carterette, Spotify
+Ann Clifton, Spotify
+Maria Eskevich,  CLARIN ERIC
+Gareth F. Jones, Dublin City University
+Rosie Jones, Spotify
+Jussi Karlgren, Spotify
+Sravana Reddy, Spotify
+Md Iftekhar Tanveer, Spotify
