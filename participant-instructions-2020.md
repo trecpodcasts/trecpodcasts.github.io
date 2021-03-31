@@ -1,28 +1,18 @@
 # TREC 2020 Podcasts Track Guidelines
 Guidelines V1.1, Aug 5th, 2020
 
-## Coordinators
-
-Ann Clifton
-Sravana Reddy
-Jussi Karlgren
-Yongze Yu
-Aasish Pappu
-Ben Carterette
-Jen McFadden
-Gareth Jones
-Maria Eskevich 
-Rosie Jones
-
 ## Motivation
 
 Podcasts are a rapidly growing medium for news, commentary, entertainment, and learning.  Some podcast shows release new episodes on a regular schedule (daily, weekly, etc); others irregularly.  Some podcast shows feature short episodes of 5 minutes or less touching on one or two topics; others may release 3+ hour long episodes touching on a wide range of topics.  Some are structured as news delivery, some as conversations, some as storytelling.
+
 High-quality search of the actual content of podcast episodes is currently not possible.  Existing podcast search engines index what metadata fields they find for the podcast as well as textual descriptions of the show and each episode. These descriptions often fail to cover the salient aspects of the content of the episode.  Podcast search is further limited by the availability of transcripts and the cost of automatic speech recognition.
+
 This track will provide tasks, data, and evaluation measures for building next-generation search engines and summarization methodologies for podcasts of all types.
 ### Task 1: Fixed-length Segment Retrieval 
 Given an arbitrary query (a phrase, sentence or set of words), retrieve relevant two-minute segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-199.9] seconds, [120-139.9] seconds, etc.
 #### Topics for Task 1
 Topics will consist of a topic number, keyword query, and a description of the user’s information need.  For example:
+
 ```
 <topic>
 <num>1</num>
@@ -30,6 +20,7 @@ Topics will consist of a topic number, keyword query, and a description of the u
 <description>I’m looking for news and discussion about the discovery of the Higgs boson. When was it discovered? How? Who was involved? What are the implications of the discovery for physics?</description>
 </topic>
 ```
+
 #### Assessment and Evaluation: Task 1
 
 Two-minute length segments will be judged by NIST assessors for their relevance to the topic description.  NIST assessors will have access to both the ASR transcript (including text before and after the text of the two-segment, which can be used as context) as well as the corresponding audio segment.  Assessments will be made on the PEGFB graded scale (Perfect, Excellent, Good, Fair, Bad) as approximately follows:
