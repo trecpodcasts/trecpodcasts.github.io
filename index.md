@@ -42,9 +42,6 @@ An overview of the 2020 edition of the track is given in
 
 ## Organisers
 
-Ben Carterette, Ann Clifton, Maria Eskevich, Gareth J.F. Jones, Rosie Jones, Jussi Karlgren, Sravana Reddy, Md Iftekhar Tanveer
-
-
 Ben Carterette, Spotify
 Ann Clifton, Spotify
 Maria Eskevich,  CLARIN ERIC
