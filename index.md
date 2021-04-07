@@ -43,10 +43,17 @@ An overview of the 2020 edition of the track is given in
 ## Organisers
 
 Ben Carterette, Spotify
+
 Ann Clifton, Spotify
+
 Maria Eskevich,  CLARIN ERIC
+
 Gareth F. Jones, Dublin City University
+
 Rosie Jones, Spotify
+
 Jussi Karlgren, Spotify
+
 Sravana Reddy, Spotify
+
 Md Iftekhar Tanveer, Spotify
