@@ -15,7 +15,7 @@ The Podcasts Track has two challenge tasks: segment retrieval and podcast episod
 
 Given a query, retrieve relevant two-minute segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-199.9] seconds, [120-139.9] seconds, etc. The two-minute segments are judged manually by NIST assessors for their relevance to the query, using both the transcript of the podcast as well as the corresponding audio segment.  Assessments were made on a graded scale of Perfect, Excellent, Good, Fair, Bad. (The Perfect score pertains only to queries with a given target item.)
 
-In 2020 there were three types of queries: topical, known-item, and refinding queries. In 2021 we will combine the refinding queries and the known-item queries, and add some non-topical target notions. The exact task formulation will be released in early April 2021.
+In 2020 there were three types of queries: topical, known-item, and refinding queries. In 2021 we will combine the refinding queries and the known-item queries, and add some non-topical target notions. The exact task formulation will be released in April 2021.
 
 #### Resources
 
@@ -26,6 +26,9 @@ In 2020 there were three types of queries: topical, known-item, and refinding qu
     * [train set](https://trecpodcasts.github.io/resources/2020_train_qrels.list)
     * [test set](https://trecpodcasts.github.io/resources/2020_test_qrels.list)
 * 2020 [Participant Guidelines](participant-instructions-2020.md)
+
+We will release some further precomputed feature sets and helper scripts for the data set in April and May of 2021.
+
 
 ### Task 2: Summarisation
 
@@ -39,21 +42,34 @@ An overview of the 2020 edition of the track is given in
 
 * Rosie Jones, Ben Carterette, Ann Clifton, Maria Eskevich, Gareth J. F. Jones, Jussi Karlgren, Aasish Pappu, Sravana Reddy, and Yongze Yu. 2020. [*TREC 2020 Podcasts Track Overview.*](https://github.com/trecpodcasts/trecpodcasts.github.io/blob/gh-pages/documents/TREC_2020_Podcasts_Track__Tasks_overview.pdf) Proceedings from the 29th Text Retrieval Conference (TREC). NIST.
 
+Reports from the individual participants can be found from the TREC website
+
+* [TREC 2020 publications](https://trec.nist.gov/pubs/trec29/trec2020.html)
 
 ## Organisers
+### 2021
 
-Ben Carterette, Spotify
+* Ben Carterette, Spotify
+* Ann Clifton, Spotify
+* Maria Eskevich,  CLARIN ERIC
+* Gareth F. Jones, Dublin City University
+* Rosie Jones, Spotify
+* Jussi Karlgren, Spotify
+* Sravana Reddy, Spotify
+* Md Iftekhar Tanveer, Spotify
 
-Ann Clifton, Spotify
 
-Maria Eskevich,  CLARIN ERIC
+### 2020
 
-Gareth F. Jones, Dublin City University
 
-Rosie Jones, Spotify
+* Ann Clifton, Spotify
+* Sravana Reddy, Spotify
+* Yongze Yu, Spotify
+* Aasish Pappu, Spotify
+* Jussi Karlgren, Spotify
+* Ben Carterette, Spotify
+* Jen McFadden, Spotify
+* Gareth Jones, Dublin City University
+* Maria Eskevich,  CLARIN ERIC
+* Rosie Jones, Spotify
 
-Jussi Karlgren, Spotify
-
-Sravana Reddy, Spotify
-
-Md Iftekhar Tanveer, Spotify
