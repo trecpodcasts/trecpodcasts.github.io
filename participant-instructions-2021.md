@@ -119,11 +119,11 @@ Coming soon!
 
 ## TREC Podcasts 2021 Track Organizers
 
-Ben Carterette, Spotify
-Ann Clifton, Spotify
-Maria Eskevich,  CLARIN ERIC
-Gareth F. Jones, Dublin City University
-Rosie Jones, Spotify
-Jussi Karlgren, Spotify
-Sravana Reddy, Spotify
-Md Iftekhar Tanveer, Spotify
+* Ben Carterette, Spotify
+* Ann Clifton, Spotify
+* Maria Eskevich,  CLARIN ERIC
+* Gareth F. Jones, Dublin City University
+* Rosie Jones, Spotify
+* Jussi Karlgren, Spotify
+* Sravana Reddy, Spotify
+* Md Iftekhar Tanveer, Spotify
