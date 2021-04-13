@@ -22,11 +22,11 @@ Query type in 2021 will be either "topical" or "known-item". Participants will b
 
 *  Adhoc topical retrieval: the segment is topically relevant to the topic description. 
 
-*  Entertaining: the segment is topically relevant to the topic description and the topic is presented in a way which the speakers intend to be amusing and entertaining to the listener, rather than informative or evaluative. 
+*  Entertaining: the segment is topically relevant to the topic description AND the topic is presented in a way which the speakers intend to be amusing and entertaining to the listener, rather than informative or evaluative. 
 
-*  Subjective: the segment is topically relevant to the topic description and the speaker or speakers explicitly and clearly express a polar opinion about the query topic, so that the approval or disapproval of the speaker is evident in the segment.
+*  Subjective: the segment is topically relevant to the topic description AND the speaker or speakers explicitly and clearly express a polar opinion about the query topic, so that the approval or disapproval of the speaker is evident in the segment.
 
-*  Discussion: the segment is topically relevant to the topic description and with more than one speaker participating with non-trivial topical contribution (e.g. mere grunts, expressions of agreement, or discourse management cues ("go on", "right", "well, I don't know ..." etc) are not sufficient). 
+*  Discussion: the segment is topically relevant to the topic description AND includes more than one speaker participating with non-trivial topical contribution (e.g. mere grunts, expressions of agreement, or discourse management cues ("go on", "right", "well, I don't know ..." etc) are not sufficient). 
 
 ### Assessment for the Fixed-length Segment Retrieval Task
 
@@ -93,25 +93,28 @@ Example submission
 ```
 
 
+### Timeline for segment retrieval task
+
+* Document collection released: April 16th, 2020
+* Sample topics and qrels released: March 31, 2021
+* 2021 guidelines released: April 14th, 2021
+* Test topics released: TBD
+* Runs due: TBD (aiming for July 1, 2021)
+* Results released to participants: Early October, 2021
+
+
 ## Task 2: Summarization
 
 Coming soon!
 
 
-## Timeline
+### Timeline for summarization task
 
-Document collection released
-April 16th, 2020
-Sample topics and qrels released
-March 31, 2021
-2021 guidelines released
-April 14th, 2021
-Test topics and episodes to summarize released
-TBD
-Runs due
-TBD
-Results released to participants
-Early October, 2021
+* Document collection released: April 16th, 2020
+* 2021 guidelines released: April 14th, 2021
+* Test episodes to summarize released: TBD
+* Runs due: TBD
+* Results released to participants: Early October, 2021
 
 
 ## TREC Podcasts 2021 Track Organizers
