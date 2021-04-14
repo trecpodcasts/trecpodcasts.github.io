@@ -9,7 +9,7 @@ The core data for the challenge is the Spotify English-language Podcast Dataset,
 
 ## Tasks
 
-The Podcasts Track has two challenge tasks: segment retrieval and podcast episode summarisation.
+The Podcasts Track has two challenge tasks: segment retrieval and podcast episode summarization.
 
 ### Task 1: Segment retrieval
 
@@ -17,7 +17,7 @@ Given a query, retrieve relevant two-minute segments from the data. A segment is
 
 In 2020 there were three types of queries: topical, known-item, and refinding queries. In 2021 we will combine the refinding queries and the known-item queries, and add some non-topical target notions, to get participants to find segments that are entertaining, opinionated, and contain conversation. The exact task formulation is planned to be released on April 14, 2021.
 
-* [2021 Participant Guidelines](participant-instructions-2021.md) (Preliminary, subject to change until formally announced).
+* [2021 Participant Guidelines](participant-instructions-2021.md)  (Some details yet to be worked out during April.)
 
 #### Resources
 
@@ -29,14 +29,16 @@ In 2020 there were three types of queries: topical, known-item, and refinding qu
     * [test set](https://trecpodcasts.github.io/resources/2020_test_qrels.list)
 * [2020 Participant Guidelines](participant-instructions-2020.md)
 
-We will release some further precomputed feature sets and helper scripts for the data set in April and May of 2021.
+We will release further precomputed audio feature sets and helper scripts for the data set in April and May of 2021.
 
 
-### Task 2: Summarisation
+### Task 2: Summarization
 
 Given a podcast episode, its audio, and its transcription, return a short text snippet capturing the most important information in the content. Returned summaries should be grammatical, standalone utterances of significantly shorter length than the input episode description. The quality of the summary is assessed manually by NIST assessors on a graded scale of Excellent, Good, Fair, Bad and via the standard Rouge metric compared to creator-provided descriptions of their episodes. 
 
-In 2020, the objective for the task was "*to provide a short text summary that a user might read when deciding whether to listen to a podcast. The summary should accurately convey the content of the podcast, be human-readable, and be short enough to be quickly read on a smartphone screen.*" In 2021 we intend to modify the objective slightly to give more guidance to participants as to what type of summary we are looking for. The exact task formulation is planned to be released on April 14, 2021.
+In 2020, the objective for the task was "*to provide a short text summary that a user might read when deciding whether to listen to a podcast. The summary should accurately convey the content of the podcast, be human-readable, and be short enough to be quickly read on a smartphone screen.*" In 2021 we intend to modify the objective slightly to give more guidance to participants as to what type of summary we are looking for. 
+
+* [2021 Participant Guidelines](participant-instructions-2021.md) (Some details yet to be worked out during April.)
 
 #### Resources
 
