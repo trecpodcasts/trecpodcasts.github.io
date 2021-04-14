@@ -4,7 +4,6 @@ Guidelines V2.0, March 31, 2021
 ## Task 1: Fixed-length Segment Retrieval 
 
 Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. 
-A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. 
 
 
 ### Topics for the Fixed-length Segment Retrieval Task
@@ -57,7 +56,7 @@ from another recording will be given as reference.
 
 #### Ranking criteria for topical queries
 
-For topical queries, participants will be asked to submit four ranked lists of segments from the data for each query. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-199.9] seconds, [120-139.9] seconds, etc. The lists are to be ranked by the four following criteria.
+For topical queries, participants will be asked to submit four ranked lists of segments from the data for each query. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. The lists are to be ranked by the four following criteria.
 
 *  Adhoc topical retrieval: the segment is topically relevant to the topic description. 
 
