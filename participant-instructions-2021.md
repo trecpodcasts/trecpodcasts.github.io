@@ -9,12 +9,14 @@ Given a retrieval topic (a phrase, sentence or set of words) and a set of rankin
 
 Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need.  For example:
 
+```
 <topic>
 <num>3</num>
 <query>black hole image</query>
 <type>topical</type>
 <description>In May 2019 astronomers released the first-ever picture of a black hole. I would like to hear some conversations and educational discussion about the science of astronomy, black holes, and of the picture itself.</description>
 </topic>
+```
 
 Query type in 2021 will be either "topical" or "known-item". Participants will be asked to submit ranked lists of segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-199.9] seconds, [120-139.9] seconds, etc.
 
