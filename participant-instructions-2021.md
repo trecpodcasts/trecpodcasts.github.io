@@ -4,6 +4,8 @@ Guidelines V2.0, March 31, 2021
 ## Task 1: Fixed-length Segment Retrieval 
 
 Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. 
+A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. 
+
 
 ### Topics for the Fixed-length Segment Retrieval Task
 
