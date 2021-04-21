@@ -5,7 +5,6 @@ Guidelines V2.0, March 31, 2021
 
 Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. 
 
-
 ### Topics for the Fixed-length Segment Retrieval Task
 
 Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need.  For example:
@@ -37,24 +36,21 @@ Topics will consist of a topic number, keyword query, a query type, and a descri
 </topic>
 ```
 
-The query types in 2021 will be "topical", "known-item", or
-"speaker". For "speaker" queries, a clip of the intended speaker taken
-from another recording will be given as reference.
+The query types in 2021 will be "topical", "known-item", or "speaker". For "speaker" queries, a clip of the intended speaker taken from another recording will be given as reference.
 
-#### Assessment of known-item queries in the fixed-length segment retrieval task
+### Assessment of known-item queries in the fixed-length segment retrieval task
 
 * Perfect (4): the segment is the intended item
 * Bad (0): the segment is not intended item
 
-#### Assessment of speaker queries in the fixed-length segment retrieval task
+### Assessment of speaker queries in the fixed-length segment retrieval task
 
-* Perfect (4): the segment features the indended speaker
-* Uncertain (2): it is unclear if the segment features the indended speaker
-* Audio issue (1): the audio quality makes it impossible to decide if the the segment features the intended speaker
+* Perfect (4): the segment features the intended speaker
+* Uncertain (2): it is unclear if the segment features the intended speaker
+* Audio issue (1): the audio quality makes it impossible to decide if the segment features the intended speaker
 * Bad (0): the segment does not feature the intended speaker
 
-
-#### Ranking criteria for topical queries
+### Ranking criteria for topical queries
 
 For topical queries, participants will be asked to submit four ranked lists of segments from the data for each query. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. The lists are to be ranked by the four following criteria.
 
@@ -66,8 +62,7 @@ For topical queries, participants will be asked to submit four ranked lists of s
 
 *  Discussion: the segment is topically relevant to the topic description AND includes more than one speaker participating with non-trivial topical contribution (e.g. mere grunts, expressions of agreement, or discourse management cues ("go on", "right", "well, I don't know ..." etc) are not sufficient). 
 
-
-#### Assessment of topical queries in the fixed-length segment retrieval task
+### Assessment of topical queries in the fixed-length segment retrieval task
 
 The submitted two-minute length segments will be judged by NIST assessors for their topical relevance to the topic description and their adherence to the reranking criteria.  NIST assessors will have access to both the text transcript of the episode (including text before and after the text of the two-segment, which can be used as context) as well as the corresponding audio segment.  
 
@@ -79,15 +74,15 @@ For the adhoc submission, the assessments will be made on the PEGFB graded scale
 * Bad (0): the segment is not relevant.
 
 For the three other criteria, the assessments will be made on a three grade scale as follows:
-* Adhering (3): The segment is clearly intended to be entertaining, the segment is subjective; the segment contains multi-party discussion.
-* Partial (1): The segment may be intended to be entertaining or the participants react with appreciation or glee which may or may not be due to entertainment value of statements in the segment; the segment contains subjective or evaluative language but its target topic may be unclearly delimited or due to some previously mentioned discourse topic; there are more than one participant and they contribute to the conversation but it remains unclear if they contribute to the topic or some other topic. 
+* Adhering (3): The segment is clearly intended to be entertaining; the segment is subjective; the segment contains multi-party discussion.
+* Partial (1): The segment may be intended to be entertaining or the participants react with appreciation or glee which may or may not be due to entertainment value of statements in the segment; the segment contains subjective or evaluative language but its target topic may be unclearly delimited or due to some previously mentioned discourse topic; there is more than one participant and they contribute to the conversation but it remains unclear if they contribute to the topic or some other topic. 
 * Non-adhering (0): The segment is not intended to be entertaining nor is interpreted as such by its participants; the segment does not express the speaker attitude vis-a-vis the topic; the segment does not involve multiple participants or only one speaker contributes to the topic. 
 
-#### Evaluation Metric for the topical queries in the fixed-length segment retrieval task
+### Evaluation Metric for the topical queries in the fixed-length segment retrieval task
 
-The primary metrics for evaluation will be nDCG at a cutoff of 30 documents, precision at 10, and nDCG over the entire ranked list. A single episode may contribute one or more relevant segments, some of which may be overlapping, but these will be treated as independent items for the purpose of nDCG computation.  We expect to assess at a pool depth of 10, meaning the top 10 segments for each ranked list. 
+The primary metrics for evaluation will be nDCG at a cutoff of 30 documents, precision at 10, and nDCG over the entire ranked list. A single episode may contribute one or more relevant segments, some of which may be overlapping, but these will be treated as independent items for the purpose of nDCG computation. We expect to assess at a pool depth of 10, meaning the top 10 segments for each ranked list. 
 
-#### Submission Format for the fixed-length segment retrieval task
+### Submission Format for the fixed-length segment retrieval task
 
 Submissions for the ad hoc retrieval task should be in standard whitespace-delimited TREC 6-column format. 
 
@@ -132,7 +127,6 @@ Example submission
 ...
 ```
 
-
 ### Timeline for segment retrieval task
 
 * Document collection released: April 16th, 2020
@@ -145,7 +139,7 @@ Example submission
 
 ## Task 2: Summarization
 
-Given a podcast episode, its audio, and transcription, return a short text snippet capturing the most important information in the content. Returned summaries should be grammatical, standalone utterances of significantly shorter length than the input episode description. The user task is to provide a short description of the podcast episode to help the user decide whether to listen to a podcast. For each summary, attach three audio clips from the podcast to give the user a sense of what the podcast sounds like.
+Given a podcast episode, its audio, and transcription, return a short text snippet capturing the most important information in the content. Returned summaries should be grammatical, standalone utterances of significantly shorter length than the input episode description. The task is to provide a short description of the podcast episode to help the user decide whether to listen to a podcast. For each summary, attach three audio clips from the podcast to give the user a sense of what the podcast sounds like.
 
 ### Assessment criteria for the summarization task
 
@@ -159,9 +153,8 @@ An additional assessment will be made of the audio clips:
 
 * Do the clips give a sense of what the podcast sounds like, (as far as you can tell from listening to it)?
 
-
-
 ### Evaluation Set for Summarization
+
 The evaluation set will be created from a set of 500 held-out episodes which will be used to test the summarization systems. These test episodes will be provided later in the task. 
 
 ### Submission Format for the summarization task
