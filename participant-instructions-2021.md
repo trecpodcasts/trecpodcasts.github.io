@@ -28,11 +28,11 @@ Topics will consist of a topic number, keyword query, a query type, and a descri
 </topic>
 ```
 
-```
 The query types in 2021 will be "topical", "known-item", or
 "speaker". For "speaker" queries, a clip of the intended speaker taken
 from another recording will be given as reference.
 
+```
 <topic>
 <num>example101</num>
 <episode>
