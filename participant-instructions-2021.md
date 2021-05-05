@@ -8,7 +8,7 @@ Given a retrieval topic (a phrase, sentence or set of words) and a set of rankin
 
 ### Topics for the Fixed-length Segment Retrieval Task
 
-Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need.  For example:
+Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item", as well as two or three pilot queries for "speaker" retrieval. For "speaker" queries, a clip of the intended speaker taken from another recording will be given as reference. For example:
 
 ```
 <topic>
@@ -29,17 +29,19 @@ Topics will consist of a topic number, keyword query, a query type, and a descri
 ```
 
 ```
-<topic>
-<num>__</num>
-<query>Podcast host John Doe on Mavericks injuries </query>
-<type>speaker</type>
-<description>Find segments where John Doe is the speaker, a sports commentator and podcast host, discusses how the Dallas Mavericks players have suffered off-court injuries that may impact their chances in the next coming games. </description>
-</topic>
-```
-
 The query types in 2021 will be "topical", "known-item", or
 "speaker". For "speaker" queries, a clip of the intended speaker taken
 from another recording will be given as reference.
+
+<topic>
+<num>example101</num>
+<episode>
+<id> spotify:episode:3GFauMoprjqiBpq4TrQkuG </id>
+<start_time> 02:34 </start_time>
+<end_time> 05:57 </end_time>
+</episode>
+</topic>
+```
 
 #### Assessment of known-item queries in the fixed-length segment retrieval task
 
@@ -48,8 +50,9 @@ from another recording will be given as reference.
 
 #### Assessment of speaker queries in the fixed-length segment retrieval task
 
-* Perfect (4): the segment features the indended speaker
-* Uncertain (2): it is unclear if the segment features the indended speaker
+* Perfect (4): the segment features the intended speaker
+* Brief (3): the segment features the intended speaker but only very briefly, e.g. truncated at the beginning or end of segment, or very short phrase ("I see", etc)
+* Uncertain (2): it is unclear if the segment features the intended speaker
 * Audio issue (1): the audio quality makes it impossible to decide if the the segment features the intended speaker
 * Bad (0): the segment does not feature the intended speaker
 
@@ -104,7 +107,7 @@ TOPICID   Q0   EPISODEID_OFFSET   RANK   SCORE   RUNID
 
 Participants may submit up to 4 runs. Each run should consist of four separate 6-column files consisting of ranked results for all topics in the test set, one file per ranking criterion. Participants are asked to return a ranked list of at most 1,000 segments for each topic. The RUNID identifier should begin with one of ADHOC, ENTERTAIN, SUBJECTIVE, DISCUSSION to indicate which criterion is used for ranking.
 
-Known-item and speaker topics are only to be submitted with the ADHOC rankings, since the reranking criteria are not applicable to them. 
+Known-item and speaker topics are only to be submitted with the ADHOC rankings, since the reranking criteria are not applicable to them. The `RANK` field is not taken into account but must be present as an ascending integer starting from 1. Note that the assessment will be made from the top of the ranked list to the pool depth which will be determined after submissions are in. 
 
 Example submission
 
