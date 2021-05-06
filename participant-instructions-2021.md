@@ -1,7 +1,7 @@
 # TREC 2021 Podcasts Track Guidelines
 Guidelines V2.1, May 5, 2021
 
-<span style="color:red"> *some emphasized markdown text*</span>
+<span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
 
 
 ## Task 1: Fixed-length Segment Retrieval 
