@@ -148,7 +148,11 @@ Example submission
 
 ## Task 2: Summarization
 
-Given a podcast episode, its audio, and transcription, return *a short text snippet* capturing the most important information in the content. Returned summaries should be grammatical, standalone utterances of significantly shorter length than the input episode description. The user task is to provide a short description of the podcast episode to help the user decide whether to listen to a podcast. For each summary, also attach *three audio clips* from the podcast to give the user a sense of what the podcast sounds like.
+The user task is to provide a short description of the podcast episode to help the user decide whether to listen to a podcast.
+
+Given a podcast episode, its audio, and transcription, return
+* *a short text snippet* capturing the most important information in the content, in grammatical standalone utterances of significantly shorter length than the input episode description;
+* *an audio file* of up to one minute duration selected from the podcast to give the user a sense of what the podcast sounds like.
 
 ### Assessment criteria for the summarization task
 
@@ -163,13 +167,14 @@ The audio clips will be assessed by a yes/no-question:
 * Do the clips give a sense of what the podcast sounds like, (as far as you can tell from listening to it)?
 
 
-
 ### Evaluation Set for Summarization
 The evaluation set will be created from a set of 500 held-out episodes which will be used to test the summarization systems. These test episodes will be provided later in the task. 
 
 ### Submission Format for the summarization task
 
-A run will comprise exactly two files per summary, where the name of each summary file is the ID of the episode it is intended to represent, with the suffix “_summary.txt” appended to the text summary file and "_clips.json" appended to the audio clip file. Please include files for a summary, even if your system happens to produce no output for that episode. Each text summary file will be read and assessed as a plain text file, so no special characters or markups are allowed. The audio clip file should give a JSON structure with the start and end points of the up to three sample clips selected from the episode. 
+A run will comprise exactly two files per summary, where the name of each summary file is the ID of the episode it is intended to represent, with the suffix “_summary.txt” appended to the text summary file and "_clips.json" appended to the audio file. Please include files for a summary, even if your system happens to produce no output for that episode. Each text summary file will be read and assessed as a plain text file, so no special characters or markups are allowed.
+
+*The submission format for the audio clip file is still under discussion*
 
 Organise the summary files in a directory structure identical to the one the test files were given in, with a top level directory whose name should be the concatenation of the Team ID and a number (1 to N) for the run. (For example, if the Team ID is "SYSX'' then the directory name for the first run should be "SYSX1".) Please package the directory in a tarfile and gzip the tarfile before submitting it to NIST. 
 
