@@ -17,7 +17,7 @@ Given a query, retrieve relevant two-minute segments from the data. A segment is
 
 In 2020 there were three types of queries: topical, known-item, and refinding queries. In 2021 we will combine the refinding queries and the known-item queries, and add some non-topical target notions, to get participants to find segments that are entertaining, opinionated, and contain conversation. The exact task formulation is planned to be released on April 14, 2021.
 
-* [2021 Participant Guidelines](participant-instructions-2021.md)  (Some details yet to be worked out during April.)
+* [2021 Participant Guidelines](participant-instructions-2021.md)  
 
 #### Resources
 
@@ -29,7 +29,7 @@ In 2020 there were three types of queries: topical, known-item, and refinding qu
     * [test set](https://trecpodcasts.github.io/resources/2020_test_qrels.list)
 * [2020 Participant Guidelines](participant-instructions-2020.md)
 
-We will release further precomputed audio feature sets and helper scripts for the data set in April and May of 2021.
+We will release further precomputed audio feature sets and helper scripts for the data set in May of 2021.
 
 
 ### Task 2: Summarization
@@ -38,7 +38,7 @@ Given a podcast episode, its audio, and its transcription, return a short text s
 
 In 2020, the objective for the task was "*to provide a short text summary that a user might read when deciding whether to listen to a podcast. The summary should accurately convey the content of the podcast, be human-readable, and be short enough to be quickly read on a smartphone screen.*" In 2021 we intend to modify the objective slightly to give more guidance to participants as to what type of summary we are looking for. 
 
-* [2021 Participant Guidelines](participant-instructions-2021.md) (Some details yet to be worked out during April.)
+* [2021 Participant Guidelines](participant-instructions-2021.md) 
 
 #### Resources
 
