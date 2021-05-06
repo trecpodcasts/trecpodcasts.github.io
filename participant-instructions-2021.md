@@ -1,6 +1,9 @@
 # TREC 2021 Podcasts Track Guidelines
 Guidelines V2.1, May 5, 2021
 
+<span style="color:red"> *some emphasized markdown text*</span>
+
+
 ## Task 1: Fixed-length Segment Retrieval 
 
 Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. 
