@@ -1,17 +1,22 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.1, May 5, 2021
+Guidelines V2.2, May 7, 2021
 
 <span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
 
 
 ## Task 1: Fixed-length Segment Retrieval 
 
-Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. 
+Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. The lists are to be ranked by the four following criteria.
 
 
 ### Topics for the Fixed-length Segment Retrieval Task
 
-Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item", as well as two or three pilot queries for "speaker" retrieval. For "speaker" queries, a clip of the intended speaker taken from another recording will be given as reference. For example:
+Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item". We will also try out two or three pilot queries for "speaker" retrieval. 
+
+
+### Topical queries
+
+Most of the segment retrieval queries will be of this type.
 
 ```
 <topic>
@@ -22,47 +27,9 @@ Topics will consist of a topic number, keyword query, a query type, and a descri
 </topic>
 ```
 
-```
-<topic>
-<num>54</num>
-<query>bias in college admissions</query>
-<type>known item</type>
-<description>I read an article that mentioned a podcast about bias in college admissions.  I would like to listen to it but I don’t know the name of the show.</description>
-</topic>
-```
-
-The query types in 2021 will be "topical", "known-item", or
-"speaker". For "speaker" queries, a clip of the intended speaker taken
-from another recording will be given as reference.
-
-```
-<topic>
-<num>example101</num>
-<episode>
-<id> spotify:episode:3GFauMoprjqiBpq4TrQkuG </id>
-<start_time> 02:34 </start_time>
-<end_time> 05:57 </end_time>
-</episode>
-</topic>
-```
-
-#### Assessment of known-item queries in the fixed-length segment retrieval task
-
-* Perfect (4): the segment is the intended item
-* Bad (0): the segment is not intended item
-
-#### Assessment of speaker queries in the fixed-length segment retrieval task
-
-* Perfect (4): the segment features the intended speaker
-* Brief (3): the segment features the intended speaker but only very briefly, e.g. truncated at the beginning or end of segment, or very short phrase ("I see", etc)
-* Uncertain (2): it is unclear if the segment features the intended speaker
-* Audio issue (1): the audio quality makes it impossible to decide if the the segment features the intended speaker
-* Bad (0): the segment does not feature the intended speaker
-
-
 #### Ranking criteria for topical queries
 
-For topical queries, participants will be asked to submit four ranked lists of segments from the data for each query. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. The lists are to be ranked by the four following criteria.
+For topical queries, as in 2020, participants will be asked to submit a ranked list of topically relevant segments for each query topic. In addition, this year we ask for three reranked lists of those same topically relevant segments. This means that for each query topic we expect four segment lists. 
 
 *  Adhoc topical retrieval: the segment is topically relevant to the topic description. 
 
@@ -75,7 +42,7 @@ For topical queries, participants will be asked to submit four ranked lists of s
 
 #### Assessment of topical queries in the fixed-length segment retrieval task
 
-The submitted two-minute length segments will be judged by NIST assessors for their topical relevance to the topic description and their adherence to the reranking criteria.  NIST assessors will have access to both the text transcript of the episode (including text before and after the text of the two-segment, which can be used as context) as well as the corresponding audio segment.  
+The submitted two-minute length segments will be judged by NIST assessors for their topical relevance to the topic description and each relevant topic will also be assess for their adherence to the reranking criteria.  NIST assessors will have access to both the text transcript of the episode (including text before and after the text of the two-segment, which can be used as context) as well as the corresponding audio segment.  
 
 For the adhoc submission, the assessments will be made on the PEGFB graded scale (Perfect, Excellent, Good, Fair, Bad) as follows:
 
@@ -89,11 +56,59 @@ For the three other criteria, the assessments will be made on a three grade scal
 * Partial (1): The segment may be intended to be entertaining or the participants react with appreciation or glee which may or may not be due to entertainment value of statements in the segment; the segment contains subjective or evaluative language but its target topic may be unclearly delimited or due to some previously mentioned discourse topic; there are more than one participant and they contribute to the conversation but it remains unclear if they contribute to the topic or some other topic. 
 * Non-adhering (0): The segment is not intended to be entertaining nor is interpreted as such by its participants; the segment does not express the speaker attitude vis-a-vis the topic; the segment does not involve multiple participants or only one speaker contributes to the topic. 
 
-#### Evaluation Metric for the topical queries in the fixed-length segment retrieval task
+
+### Known-item queries
+
+```
+<topic>
+<num>54</num>
+<query>bias in college admissions</query>
+<type>known item</type>
+<description>I read an article that mentioned a podcast about bias in college admissions.  I would like to listen to it but I don’t know the name of the show.</description>
+</topic>
+```
+
+#### Assessment of known-item queries in the fixed-length segment retrieval task
+
+* Perfect (4): the segment is the intended item
+* Bad (0): the segment is not intended item
+
+
+
+### Speaker queries
+
+For "speaker" queries, a clip of the intended speaker taken from another recording will be given as reference. 
+
+```
+<topic>
+<num>example101</num>
+<episode>
+<id> spotify:episode:3GFauMoprjqiBpq4TrQkuG </id>
+<start_time> 02:34 </start_time>
+<end_time> 05:57 </end_time>
+</episode>
+</topic>
+```
+
+
+
+#### Assessment of speaker queries in the fixed-length segment retrieval task
+
+* Perfect (4): the segment features the intended speaker
+* Brief (3): the segment features the intended speaker but only very briefly, e.g. truncated at the beginning or end of segment, or very short phrase ("I see", etc)
+* Uncertain (2): it is unclear if the segment features the intended speaker
+* Audio issue (1): the audio quality makes it impossible to decide if the the segment features the intended speaker
+* Bad (0): the segment does not feature the intended speaker
+
+
+
+
+
+### Evaluation Metric for fixed-length segment retrieval task
 
 The primary metrics for evaluation will be nDCG at a cutoff of 30 documents, precision at 10, and nDCG over the entire ranked list. A single episode may contribute one or more relevant segments, some of which may be overlapping, but these will be treated as independent items for the purpose of nDCG computation.  We expect to assess at a pool depth of 10, meaning the top 10 segments for each ranked list. 
 
-#### Submission Format for the fixed-length segment retrieval task
+### Submission Format for the fixed-length segment retrieval task
 
 Submissions for the ad hoc retrieval task should be in standard whitespace-delimited TREC 6-column format. 
 
