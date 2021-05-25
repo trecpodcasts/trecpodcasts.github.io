@@ -1,17 +1,17 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.2, May 7, 2021
+Guidelines V2.3, May 25, 2021
 
 <span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
 
 
 ## Task 1: Fixed-length Segment Retrieval 
 
-Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. The lists are to be ranked by the four following criteria.
+Given a retrieval topic (a phrase, sentence or set of words) and a set of ranking criteria, retrieve and rank relevant two-minute segments from the data. A segment is a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-179.9] seconds, [120-239.9] seconds, etc. The lists of segments are to be submitted in four separately ranked lists. 
 
 
 ### Topics for the Fixed-length Segment Retrieval Task
 
-Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item". We will also try out two or three pilot queries for "speaker" retrieval. 
+Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item". We also plan to try out two or three pilot queries for "speaker" retrieval. 
 
 
 ### Topical queries
@@ -29,7 +29,7 @@ Most of the segment retrieval queries will be of this type.
 
 #### Ranking criteria for topical queries
 
-For topical queries, as in 2020, participants will be asked to submit a ranked list of topically relevant segments for each query topic. In addition, this year we ask for three reranked lists of those same topically relevant segments. This means that for each query topic we expect four segment lists. 
+For topical queries, as in 2020, participants will be asked to submit a ranked list of topically relevant segments for each query topic. In addition, this year we ask for three reranked lists of those same topically relevant segments. This means that for each query topic we expect four segment lists. For some queries the reranking may have little effect, which we look forward to studying after submissions are in. 
 
 *  Adhoc topical retrieval: the segment is topically relevant to the topic description. 
 
@@ -123,7 +123,7 @@ TOPICID   Q0   EPISODEID_OFFSET   RANK   SCORE   RUNID
 * `SCORE` is the system score for the segment.
 * `RUNID` is a unique identifier for the participant and submitted run.
 
-Participants may submit up to 4 runs. Each run should consist of four separate 6-column files consisting of ranked results for all topics in the test set, one file per ranking criterion. Participants are asked to return a ranked list of at most 1,000 segments for each topic. The RUNID identifier should begin with one of ADHOC, ENTERTAIN, SUBJECTIVE, DISCUSSION to indicate which criterion is used for ranking.
+Participants may submit up to 4 runs. Each run should consist of four separate 6-column files consisting of ranked results for all topics in the test set, one file per ranking criterion. Participants are asked to return a ranked list of *at most* 1,000 segments for each topic. The RUNID identifier should begin with one of ADHOC, ENTERTAIN, SUBJECTIVE, DISCUSSION to indicate which criterion is used for ranking.
 
 Known-item and speaker topics are only to be submitted with the ADHOC rankings, since the reranking criteria are not applicable to them. The `RANK` field is not taken into account but must be present as an ascending integer starting from 1. Note that the assessment will be made from the top of the ranked list to the pool depth which will be determined after submissions are in. 
 
@@ -166,11 +166,11 @@ Example submission
 
 ## Task 2: Summarization
 
-The user task is to provide a short description of the podcast episode to help the user decide whether to listen to a podcast.
+The user task is to provide a short description of the podcast episode to *help the user decide whether to listen to a podcast*. This user task is the background for both the assessment of the text snippet and the audio clip.
 
 Given a podcast episode, its audio, and transcription, return
 * *a short text snippet* capturing the most important information in the content, in grammatical standalone utterances of significantly shorter length than the input episode description;
-* *an audio file* of up to one minute duration selected from the podcast to give the user a sense of what the podcast sounds like.
+* *an audio file* of up to one minute duration selected from the podcast to give the user a sense of what the podcast sounds like. Limitations on the format of the audio file are yet to be determined. 
 
 ### Assessment criteria for the summarization task
 
@@ -182,7 +182,7 @@ The assessment and scoring of the text snippet will be done similarly as last ye
 
 The audio clips will be assessed by a yes/no-question: 
 
-* Do the clips give a sense of what the podcast sounds like, (as far as you can tell from listening to it)?
+* Does the clip give a sense of what the podcast sounds like, (as far as you can tell from listening to it)?
 
 
 ### Evaluation Set for Summarization
