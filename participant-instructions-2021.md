@@ -1,5 +1,5 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.5, June 3, 2021
+Guidelines V2.6, June 3, 2021
 
 <span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
 
@@ -11,7 +11,7 @@ Given a retrieval topic (a phrase, sentence or set of words) and a set of rankin
 
 ### Topics for the Fixed-length Segment Retrieval Task
 
-Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item". We also plan to try out two or three pilot queries for "speaker" retrieval. 
+Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item". 
 
 
 ### Topical queries
@@ -75,35 +75,6 @@ For the three other criteria, the assessments will be made on a three grade scal
 
 
 
-### Speaker queries
-
-For "speaker" queries, a clip of the intended speaker taken from another recording will be given as reference. 
-
-```
-<topic>
-<num>example101</num>
-<episode>
-<id> spotify:episode:3GFauMoprjqiBpq4TrQkuG </id>
-<start_time> 02:34 </start_time>
-<end_time> 05:57 </end_time>
-</episode>
-</topic>
-```
-
-
-
-#### Assessment of speaker queries in the fixed-length segment retrieval task
-
-* Perfect (4): the segment features the intended speaker
-* Brief (3): the segment features the intended speaker but only very briefly, e.g. truncated at the beginning or end of segment, or very short phrase ("I see", etc)
-* Uncertain (2): it is unclear if the segment features the intended speaker
-* Audio issue (1): the audio quality makes it impossible to decide if the the segment features the intended speaker
-* Bad (0): the segment does not feature the intended speaker
-
-
-
-
-
 ### Evaluation Metric for fixed-length segment retrieval task
 
 The primary metrics for evaluation will be nDCG at a cutoff of 30 documents, precision at 10, and nDCG over the entire ranked list. A single episode may contribute one or more relevant segments, some of which may be overlapping, but these will be treated as independent items for the purpose of nDCG computation.  We expect to assess at a pool depth of 10, meaning the top 10 segments for each ranked list. 
@@ -130,7 +101,7 @@ TOPICID   QTYPE   EPISODEID_OFFSET   RANK   SCORE   RUNID
 
 Participants may submit up to 4 runs. Each run should consist of a 6-column file consisting of ranked results for all topics in the test set of *at most* 1,000 segments for each topic. The QTYPE field is used to distinguish the various ranking criteria for each topic. 
 
-Known-item and speaker topics are only to be submitted with the QR ranking, since the various reranking criteria are not applicable to them. The `RANK` field is not must be an ascending integer starting from 1, restarting for each ranking criterion. Note that the assessment will be made from the top of the ranked list to the pool depth which will be determined after submissions are in but is almost certain to be less than 100 and likely to be less than 30. 
+Known-item topics are only to be submitted with the QR ranking, since the various reranking criteria are not applicable to them. The `RANK` field is not must be an ascending integer starting from 1, restarting for each ranking criterion. Note that the assessment will be made from the top of the ranked list to the pool depth which will be determined after submissions are in but is almost certain to be less than 100 and likely to be less than 50. 
 
 Example submission
 
