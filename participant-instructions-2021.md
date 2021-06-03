@@ -1,5 +1,5 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.3, May 25, 2021
+Guidelines V2.4, June 3, 2021
 
 <span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
 
@@ -159,8 +159,8 @@ Example submission
 * Document collection released: April 16th, 2020
 * Sample topics and qrels released: March 31, 2021
 * 2021 guidelines released: April 14th, 2021
-* Test topics released: TBD
-* Runs due: TBD (aiming for July 1, 2021)
+* Test topics released: June 2021
+* Runs due: September 3, 2021
 * Results released to participants: Early October, 2021
 
 
@@ -200,8 +200,8 @@ Organise the summary files in a directory structure identical to the one the tes
 
 * Document collection released: April 16th, 2020
 * 2021 guidelines released: April 14th, 2021
-* Test episodes to summarize released: TBD
-* Runs due: TBD
+* Test episodes to summarize released: June 2021
+* Runs due: September 3, 2021
 * Results released to participants: Early October, 2021
 
 
