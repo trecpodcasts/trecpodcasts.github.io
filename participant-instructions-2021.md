@@ -1,5 +1,5 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.4, June 3, 2021
+Guidelines V2.5, June 3, 2021
 
 <span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
 
@@ -112,44 +112,49 @@ The primary metrics for evaluation will be nDCG at a cutoff of 30 documents, pre
 
 Submissions for the ad hoc retrieval task should be in standard whitespace-delimited TREC 6-column format. 
 
+<span style="color:red"> ***Note: the submission format has been changed in V2.5 of these instructions.***</span>
+
+
 ```
-TOPICID   Q0   EPISODEID_OFFSET   RANK   SCORE   RUNID
+TOPICID   QTYPE   EPISODEID_OFFSET   RANK   SCORE   RUNID
 ```
 
 * `TOPIC` is the unique topic number.  A submission should include at least one result for every topic in the test set.
-* `Q0` contains the static string “Q0”.  No information is contained in this column.
+* `QTYPE` distinguishes the four ranking criteria and should be one of "QR" (for the topical relevance ranking), "QE" (for the "entertaining" ranking), "QS" (for the "subjective" ranking), "QD" (for the "discussion" ranking). <i>This task marks the first time to our knowledge that this field is used functionally in a TREC track. </i>
 * The `EPISODEID_OFFSET` column is the unique identifier for the retrieved segment.  It must consist of an episode URI (unique identifier) concatenated with an offset in seconds to the start of the segment, separated by an underscore character “_”.  The offset must be a multiple of 60 with one decimal place, e.g. “120.0”.  Each entry in this column must be unique to the topic ID.
 * `RANK` is the rank at which the segment has been retrieved.
 * `SCORE` is the system score for the segment.
 * `RUNID` is a unique identifier for the participant and submitted run.
 
-Participants may submit up to 4 runs. Each run should consist of four separate 6-column files consisting of ranked results for all topics in the test set, one file per ranking criterion. Participants are asked to return a ranked list of *at most* 1,000 segments for each topic. The RUNID identifier should begin with one of ADHOC, ENTERTAIN, SUBJECTIVE, DISCUSSION to indicate which criterion is used for ranking.
 
-Known-item and speaker topics are only to be submitted with the ADHOC rankings, since the reranking criteria are not applicable to them. The `RANK` field is not taken into account but must be present as an ascending integer starting from 1. Note that the assessment will be made from the top of the ranked list to the pool depth which will be determined after submissions are in. 
+
+Participants may submit up to 4 runs. Each run should consist of a 6-column file consisting of ranked results for all topics in the test set of *at most* 1,000 segments for each topic. The QTYPE field is used to distinguish the various ranking criteria for each topic. 
+
+Known-item and speaker topics are only to be submitted with the QR ranking, since the various reranking criteria are not applicable to them. The `RANK` field is not must be an ascending integer starting from 1, restarting for each ranking criterion. Note that the assessment will be made from the top of the ranked list to the pool depth which will be determined after submissions are in but is almost certain to be less than 100 and likely to be less than 30. 
 
 Example submission
 
 ```
-9 Q0 spotify:episode:3ZUU9IO0V8kaZaUPD6qqDY_360.0 1 121.2 ADHOC-myrun1
-9 Q0 spotify:episode:000HP8n3hNIfglT2wSI2cA_60.0 2 87.8 ADHOC-myrun1
+9 QR spotify:episode:3ZUU9IO0V8kaZaUPD6qqDY_360.0 1 121.2 myrun1
+9 QR spotify:episode:000HP8n3hNIfglT2wSI2cA_60.0 2 87.8 myrun1
 ...
 ```
 
 ```
-9 Q0 spotify:episode:0CDSmklC42307Ktg86ER7Y_840.0 1 87.98 SUBJECTIVE-myrun1
-9 Q0 spotify:episode:000A9sRBYdVh66csG2qEdj_120.0 2 67.2 SUBJECTIVE-myrun1
+9 QS spotify:episode:0CDSmklC42307Ktg86ER7Y_840.0 1 87.98 myrun1
+9 QS spotify:episode:000A9sRBYdVh66csG2qEdj_120.0 2 67.2 myrun1
 ...
 ```
 
 ```
-9 Q0 spotify:episode:6O8djf3RL94yNfaoWqvk3r_840.0 1 4.82 ENTERTAIN-myrun1
-9 Q0 spotify:episode:6v0auT8BbeXzMTmg9FjyDB_1980.0 2 1.17 ENTERTAIN-myrun1
+9 QD spotify:episode:6O8djf3RL94yNfaoWqvk3r_840.0 1 4.82 myrun1
+9 QD spotify:episode:6v0auT8BbeXzMTmg9FjyDB_1980.0 2 1.17 myrun1
 ...
 ```
 
 ```
-9 Q0 spotify:episode:0bI9g00ZrF5VczfdkWds7a_2280.0 1 82.0 DISCUSSION-myrun1
-9 Q0 spotify:episode:000HP8n3hNIfglT2wSI2cA_480.0 2 31.4 DISCUSSION-myrun1
+9 QE spotify:episode:0bI9g00ZrF5VczfdkWds7a_2280.0 1 82.0 myrun1
+9 QE spotify:episode:000HP8n3hNIfglT2wSI2cA_480.0 2 31.4 myrun1
 ...
 ```
 
