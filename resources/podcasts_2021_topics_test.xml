@@ -1,0 +1,302 @@
+<topics set="testing" year="2021">
+  <topic>
+    <num>59</num>
+    <query>hydrogen economy and fuel cells</query>
+<type>topical</type>
+<description>I want to find information about how hydrogen-powered fuel cells are likely to be useful, if wide-spread adoption is feasible and likely, and what the economic outlook is. Technical information is ok, but purely technical descriptions of how fuel cells work are not interesting unless they include practical and economic aspects of deployment and adoption.</description>
+</topic>
+<topic>
+<num>60</num>
+<query>is mindfulness effective?</query>
+<type>topical</type>
+<description>I want information on mindfulness therapy, especially contrasted with medication or more traditional interventions. Personal testimonials are relevant as are scientifically oriented ones; mentions of mindfulness in passing or in a non-therapeutic general language sense are not relevant.</description>
+</topic>
+<topic>
+<num>61</num>
+<query>Are zoos good or bad?</query>
+<type>topical</type>
+<description>I want to find material that discusses if zoos are beneficial or harmful to animals. Discussions about whether a zoo is well kept, has interesting exhibits, or other visitor-oriented qualities are not relevant. </description>
+</topic>
+<topic>
+<num>62</num>
+<query>descriptions of ponzi schemes and other financial scams</query>
+<type>topical</type>
+<description>I want to find stories about Ponzi schemes or similar scams. Segments that claim that something (e.g. bitcoin investing) is a Ponzi scheme or a scam without elaborating on how are not relevant - to be relevant they need to describe the scam and how it works.</description>
+</topic>
+<topic>
+<num>63</num>
+<query>how large is a microdose?</query>
+<type>topical</type>
+<description>Microdosing various psychoactive substances is discussed as a focus enhancer or depression prophylactic, among other things. How much of the various substances counts as a microdose? Persona testimonials are relevant if they include information about the quantity used. Any substance is of interest.  </description>
+</topic>
+<topic>
+<num>64</num>
+<query>is kelp useful?</query>
+<type>topical</type>
+<description>Some people take kelp as a nutritional supplement, for adding taste, and as a fertiliser. I want reports of using kelp for something. Material that discusses kelp in terms of ecology is not relevant. </description>
+</topic>
+<topic>
+<num>65</num>
+<query>what are jung's archetypes used for?</query>
+<type>topical</type>
+<description>Any discussion of Jungian archetypes applied to anything at all is interesting. The segment needs to bring up an application (e.g. clinical psychology, dream interpretation, finance, astrology), and even tentative or unlikely ones are relevant. Mere mentions of archetypes, Carl Jung or claiming that something is viewed from a Jungian perspective are not relevant: the segment needs to mention what the Jungian archetypes are applied to. </description>
+</topic>
+<topic>
+<num>66</num>
+<query>how to handle failing a job interview </query>
+<type>topical</type>
+<description>Any material on how a job interview fails or how a candidate was rejected due to the interview: tips, advice, or personal anecdotes and testimonials are all relevant. If a rejection is not about the interview, even if the segment mentions an interview, it is not relevant.</description>
+</topic>
+<topic>
+<num>67</num>
+<query>pros and cons of ubi</query>
+<type>topical</type>
+<description>I want to find arguments for and against universal basic income. </description>
+</topic>
+<topic>
+<num>68</num>
+<query>does a welfare state make people lazy?</query>
+<type>topical</type>
+<description>I want to hear arguments and discussions about the effects of a welfare state on the population. Anecdotes about abusing the welfare system are not relevant unless they are part of a more systematic discussion about the welfare state, i.e. "someone faked their health record to get welfare" is not relevant but "many people will abuse the system through fakes" is. </description>
+</topic>
+<topic>
+<num>69</num>
+<query>drone photography tips</query>
+<type>topical</type>
+<description>I want to listen to tips about using drones to take cool pictures. </description>
+</topic>
+<topic>
+<num>70</num>
+<query>artificial intelligence bias</query>
+<type>topical</type>
+<description>I want to hear stories about AI bias, both where artificial intelligence algorithms or other technology creates and conserves bias and where technology can help overcome bias. </description>
+</topic>
+<topic>
+<num>71</num>
+<query>roman empire</query>
+<type>topical</type>
+<description>I am looking to learn something about the history of the Roman Empire</description>
+</topic>
+<topic>
+<num>72</num>
+<query>relationship counseling</query>
+<type>topical</type>
+<description>I want to hear if people find couples therapy useful or not? Any testimonials from people who have direct personal experience of relationship counseling or family counseling is relevant, as well as formal evaluations of the effectiveness. </description>
+</topic>
+<topic>
+<num>73</num>
+<query>disconnect from toxic people</query>
+<type>topical</type>
+<description>I want advice on and anecdotes about how to sever relationships with people that drain your energy. </description>
+</topic>
+<topic>
+<num>74</num>
+<query>career in bartending</query>
+<type>topical</type>
+<description>I want to hear about how people got into bartending and what it led to. Any story where someone gets a job as a bartender is relevant or where they went from that; mentions of someone working as a bartender are not if they do not describe how they got into the job or that they left the job for another job.</description>
+</topic>
+<topic>
+<num>75</num>
+<query>kpop interviews</query>
+<type>topical</type>
+<description>I want interviews that discuss Kpop. Any aspect of Kpop is relevant and any interview subject is interesting. It must be an interview to be relevant. </description>
+</topic>
+<topic>
+<num>76</num>
+<query>central asia, history and politics</query>
+<type>topical</type>
+<description>I want information about the many Central Asian ("stan") countries. Economy, history, and current political situation are interesting but mere mentions of someone or something coming from Central Asia is not. </description>
+</topic>
+<topic>
+<num>77</num>
+<query>theories about native american origins</query>
+<type>topical</type>
+<description>I want to hear about the origins of Native Americans. Information about the Inuit and Pacific Islanders are also relevant, as is information about preceding cultures, ancestral or not. General mythology and prehistory is only interesting if they relate Native Americans to other cultures.</description>
+</topic>
+<topic>
+<num>78</num>
+<query>taboo topics</query>
+<type>topical</type>
+<description>I want to understand what topics others consider to be taboo. To be relevant, the segment must mention that a topic is off limits and be clear about what the topic in question is. A mention that some topics are not on is not sufficient. A very general mention that some topics are taboo, e.g. "sexuality" is partially relevant.</description>
+</topic>
+<topic>
+<num>79</num>
+<query>celibacy</query>
+<type>topical</type>
+<description>I want to hear about people that practice celibacy voluntarily. Involuntary celibacy or frustration from lack of romance are not relevant.</description>
+</topic>
+<topic>
+<num>80</num>
+<query>crossfit injury risks</query>
+<type>topical</type>
+<description>What are injury risks involved in doing crossfit training? Is it more risky than other training methods? Medical texts and anecdotes are both relevant, as well as discussion about popular perception of crossfit risks.</description>
+</topic>
+<topic>
+<num>81</num>
+<query>men's fashion brands</query>
+<type>topical</type>
+<description>I want to list brands mentioned in podcast. Any mention of a brand name is relevant. General discussions about branding without mentioning a brand are not. </description>
+</topic>
+<topic>
+<num>82</num>
+<query>contact with aliens</query>
+<type>topical</type>
+<description>I would like to hear discussions and musings of contact with aliens or with alien artifacts. Overtly fictional accounts (e.g. science fiction shows) are not relevant. It is not necessary that the podcast creator believe in the realism of the scenario they put forth.</description>
+</topic>
+<topic>
+<num>83</num>
+<query>starting a podcast</query>
+<type>topical</type>
+<description>Tips about how to start a podcast and stories about when a creator started their podcast are relevant. Boilerplate advertising for a podcasting platform (e.g. Anchor) is not.</description>
+</topic>
+<topic>
+<num>84</num>
+<query>economy of recycling raw materials</query>
+<type>topical</type>
+<description>Any podcast segment that discusses recyling in either technical terms or economic terms is relevant. Mentions of recycling being a good thing or a waste of time are not. To be relevant the segment needs to name the raw material it is about and preferably give quantitative data on how much is recycled or how much is saved by recycling. Non-quantitative information can be relevant if it is factual in nature.</description>
+</topic>
+<topic>
+<num>85</num>
+<query>personality disorders</query>
+<type>topical</type>
+<description>Discussions about any personality disorder are relevant. Passing claims that someone (e.g. a criminal, a celebrity, the speakers themselves) has a personality disorder without discussing the disorder itself are not. </description>
+</topic>
+<topic>
+<num>86</num>
+<query>best drum solo</query>
+<type>topical</type>
+<description>I want to hear about great drummers and especially their solos. A segment is relevant if it names the drummer appreciatively and mentions them playing a solo in some song or in some concert. </description>
+</topic>
+<topic>
+<num>87</num>
+<query>lactose intolerance</query>
+<type>topical</type>
+<description>Facts and personal stories about lactose intolerance are relevant. Mentions in passing are not.</description>
+</topic>
+<topic>
+<num>88</num>
+<query>identifying burnout</query>
+<type>topical</type>
+<description>How can I tell if I suffer from burnout? Anything that helps me to understand how to tell the symptoms is relevant.</description>
+</topic>
+<topic>
+<num>89</num>
+<query>microphone for podcasts</query>
+<type>topical</type>
+<description>I want to find out what microphones podcasters use. Any segment that mentions a microphone brand used to record podcasts is relevant.</description>
+</topic>
+<topic>
+<num>90</num>
+<query>african music</query>
+<type>topical</type>
+<description>I want to hear about music from Africa. Segments that mention the name of an artist, a band, a track, a genre, or an album are relevant. General discussions e.g. about the history of popular music that do not help me find music are not. African-american music is not relevant. </description>
+</topic>
+<topic>
+<num>91</num>
+<query>twin studies</query>
+<type>topical</type>
+<description>I am fascinated by twin studies and want to hear results from any study where identical twins are compared. Twin pregnancies or pre-natal studies (e.g about fetal development or birth risks) are not relevant. Anecdotes and brief mentions are relevant if they provide some information about the findings, even non-quantitative or without proper sourcing.</description>
+</topic>
+<topic>
+<num>92</num>
+<query>edible mushrooms</query>
+<type>topical</type>
+<description>I would like to know about what mushrooms can be eaten and enjoyed as food. Names of mushrooms, how to find them, how to prepare them, how to differentiate between poisonous and edible kinds are all relevant. Psychoactive mushroom usage and mushrooms in computer games are not relevant. </description>
+</topic>
+<topic>
+<num>93</num>
+<query>tea</query>
+<type>topical</type>
+<description>I want to hear about people enjoying tea and other herbal infusions as a beverage. </description>
+</topic>
+<topic>
+<num>94</num>
+<query>podcast bloopers</query>
+<type>topical</type>
+<description>I want to find outtakes and bloopers from podcasts. The segment does not need to be an outtake itself, but needs to mention one. Movie bloopers are not relevant: it must be about podcasting. </description>
+</topic>
+<topic>
+<num>95</num>
+<query>limericks</query>
+<type>topical</type>
+<description>I want to hear limericks. Discussion about limericks is not relevant if a limerick is not included in the segment.</description>
+</topic>
+<topic>
+<num>96</num>
+<query>walkable city</query>
+<type>topical</type>
+<description>I would like to hear reports from various cities and neighbourhoods that tell me if they support a life style without cars for either residents or visitors. Both positive and negative reports are relevant, but need to give more detail than just a mention without explanation.</description>
+</topic>
+<topic>
+<num>97</num>
+<query>smuggling</query>
+<type>topical</type>
+<description>I want to hear stories about smuggling. General discussion about smuggling without reference to actual events are not relevant.</description>
+</topic>
+<topic>
+<num>98</num>
+<query>nobel prize laureates</query>
+<type>topical</type>
+<description>I want to hear about Nobel prize laureates. Biographies including both personal and professional life is relevant. The segment must name the laureate to be relevant.</description>
+</topic>
+<topic>
+<num>99</num>
+<query>samin nosrat</query>
+<type>known-item</type>
+<description>I heard that Chef Samin Nosrat makes a surprise appearance on an episode of The Cut and I want to find it.</description>
+</topic>
+<topic>
+<num>100</num>
+<query>aoc interview girls who code</query>
+<type>known-item</type>
+<description>I heard about an interview with Congresswoman Alexandria Ocasio-Cortez by CEO of nonprofit Girls Who Code and I'd like to listen to it.</description>
+</topic>
+<topic>
+<num>101</num>
+<query>bolsonaro amazon tribes</query>
+<type>known-item</type>
+<description>I want to hear this podcast episode with discussion about Bolsonaro's actions against Amazonian indigenous tribes while wildfires burn across the Amazon.</description>
+</topic>
+<topic>
+<num>102</num>
+<query>felon voting rights</query>
+<type>known-item</type>
+<description>Find this specific interview with an activist working to restore voting rights for ex-felons.</description>
+</topic>
+<topic>
+<num>103</num>
+<query>last emperor of china</query>
+<type>known-item</type>
+<description>There is a podcast episode featuring a biography of Puyi, the last emperor of China, that I would like to find.</description>
+</topic>
+<topic>
+<num>104</num>
+<query>mr eazi interview</query>
+<type>known-item</type>
+<description>I'm looking for a specific interview with Nigerian musician Mr Eazi.</description>
+</topic>
+<topic>
+<num>105</num>
+<query>servant leadership</query>
+<type>known-item</type>
+<description>I want to find a podcast I heard about with a former Google manager talking about his journey to servant leadership</description>
+</topic>
+<topic>
+<num>106</num>
+<query>dog separation anxiety</query>
+<type>known-item</type>
+<description>I listened to a long podcast that had some advice on dealing with separation anxiety in dogs. I want to find it again.</description>
+</topic>
+<topic>
+<num>107</num>
+<query>NLP interview</query>
+<type>known-item</type>
+<description>I was told about an interview with machine learning engineer who talked about natural language models for producing deep fakes. I would like to find it.</description>
+</topic>
+<topic>
+<num>108</num>
+<query>real estate inspection</query>
+<type>known-item</type>
+<description>Should I schedule an inspection before I purchase real estate? I remember hearing about this on a podcast and I'd like to find it again.</description>
+</topic>
+</topics>
