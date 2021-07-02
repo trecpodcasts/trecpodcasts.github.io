@@ -1,5 +1,5 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.6, June 3, 2021
+Guidelines V2.7, July 2, 2021
 
 <span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
 
@@ -11,12 +11,13 @@ Given a retrieval topic (a phrase, sentence or set of words) and a set of rankin
 
 ### Topics for the Fixed-length Segment Retrieval Task
 
-Topics will consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 will be "topical" and "known-item". 
+Topics consist of a topic number, keyword query, a query type, and a description of the user’s information need. The query types in 2021 are "topical" and "known-item". 
 
+The test topics for 2021 are found on the active participants' <a href="https://trec.nist.gov/act_part/tracks/podcast/podcasts_2021_topics_test.xml">site at NIST</a>. You need to <a href="">register for the track</a> to be able to access them.
 
 ### Topical queries
 
-Most of the segment retrieval queries will be of this type.
+40 of the 50 segment retrieval queries are of this type.
 
 ```
 <topic>
@@ -29,7 +30,7 @@ Most of the segment retrieval queries will be of this type.
 
 #### Ranking criteria for topical queries
 
-For topical queries, as in 2020, participants will be asked to submit a ranked list of topically relevant segments for each query topic. In addition, this year we ask for three reranked lists of those same topically relevant segments. This means that for each query topic we expect four segment lists. For some queries the reranking may have little effect, which we look forward to studying after submissions are in. 
+For topical queries, as in 2020, participants are asked to submit a ranked list of topically relevant segments for each query topic. In addition, this year we ask for three reranked lists of those same topically relevant segments. This means that for each query topic we expect four segment lists. For some queries the reranking may have little effect, which we look forward to studying after submissions are in. 
 
 *  Adhoc topical retrieval: the segment is topically relevant to the topic description. 
 
@@ -135,7 +136,7 @@ Example submission
 * Document collection released: April 16th, 2020
 * Sample topics and qrels released: March 31, 2021
 * 2021 guidelines released: April 14th, 2021
-* Test topics released: June 2021
+* Test topics released: <strike>June 2021</strike> July 1, 2021
 * Runs due: September 3, 2021
 * Results released to participants: Early October, 2021
 
@@ -176,7 +177,7 @@ Organise the summary files in a directory structure identical to the one the tes
 
 * Document collection released: April 16th, 2020
 * 2021 guidelines released: April 14th, 2021
-* Test episodes to summarize released: June 2021
+* Test episodes to summarize released: <strike>June 2021</strike> beginning of July, 2021
 * Runs due: September 3, 2021
 * Results released to participants: Early October, 2021
 
