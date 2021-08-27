@@ -1,7 +1,7 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.7, July 2, 2021
+Guidelines V2.8, August 27, 2021
 
-<span style="color:red"> *Note: the details of the tasks, submission formats, and assessment criteria may still change and be clarified. Check back here for updates (which also will be announced on the participant slack channel).*</span>
+<span style="color:red"> The latest changes involve the packaging of the summarisation task submission</span>
 
 
 ## Task 1: Fixed-length Segment Retrieval 
@@ -167,17 +167,13 @@ The evaluation set will be created from a set of 500 held-out episodes which wil
 
 ### Submission Format for the summarization task
 
-A run will comprise exactly two files per summary, where the name of each summary file is the ID of the episode it is intended to represent, with the suffix “_summary.txt” appended to the text summary file and "_clips.json" appended to the audio file. Please include files for a summary, even if your system happens to produce no output for that episode. Each text summary file will be read and assessed as a plain text file, so no special characters or markups are allowed.
-
-*The submission format for the audio clip file is still under discussion*
-
-Organise the summary files in a directory structure identical to the one the test files were given in, with a top level directory whose name should be the concatenation of the Team ID and a number (1 to N) for the run. (For example, if the Team ID is "SYSX'' then the directory name for the first run should be "SYSX1".) Please package the directory in a tarfile and gzip the tarfile before submitting it to NIST. 
+A run will comprise exactly two files per summary, where the name of each summary file is the ID of the episode it is intended to represent, with the suffix “_summary.txt” appended to the text summary file and "_clips.ogg" appended to the audio file. Please include files for a summary, even if your system happens to produce no output for that episode. Each text summary file will be read and assessed as a plain text file, so no special characters or markups are allowed. The audio file is expected in an OGG container with most reasonable listenable audio formats acceptable. The summary files should be delivered in a directory  whose name should be the concatenation of the Team ID and a number (1 to N) for the run. (For example, if the Team ID is "SYSX'' then the directory name for the first run should be "SYSX1".) Please package the directory in a tarfile and gzip the tarfile before submitting it to NIST. 
 
 ### Timeline for summarization task
 
 * Document collection released: April 16th, 2020
 * 2021 guidelines released: April 14th, 2021
-* Test episodes to summarize released: <strike>June 2021</strike> beginning of July, 2021
+* Test episodes to summarize released early August, 2021
 * Runs due: September 3, 2021
 * Results released to participants: Early October, 2021
 
