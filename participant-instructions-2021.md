@@ -1,7 +1,7 @@
 # TREC 2021 Podcasts Track Guidelines
-Guidelines V2.8, August 27, 2021
+Guidelines V2.9, September 1, 2021
 
-<span style="color:red"> The latest changes involve the packaging of the summarisation task submission</span>
+<span style="color:red"> The latest change is to make more explicit the format for an "Episode URI"</span>
 
 
 ## Task 1: Fixed-length Segment Retrieval 
@@ -93,7 +93,7 @@ TOPICID   QTYPE   EPISODEID_OFFSET   RANK   SCORE   RUNID
 
 * `TOPIC` is the unique topic number.  A submission should include at least one result for every topic in the test set.
 * `QTYPE` distinguishes the four ranking criteria and should be one of "QR" (for the topical relevance ranking), "QE" (for the "entertaining" ranking), "QS" (for the "subjective" ranking), "QD" (for the "discussion" ranking). <i>This task marks the first time to our knowledge that this field is used functionally in a TREC track. </i>
-* The `EPISODEID_OFFSET` column is the unique identifier for the retrieved segment.  It must consist of an episode URI (unique identifier) concatenated with an offset in seconds to the start of the segment, separated by an underscore character “_”.  The offset must be a multiple of 60 with one decimal place, e.g. “120.0”.  Each entry in this column must be unique to the topic ID.
+* The `EPISODEID_OFFSET` column is the unique identifier for the retrieved segment.  It must consist of an episode URI (unique identifier) concatenated with an offset in seconds to the start of the segment, separated by an underscore character “_”.  The episode URI format is "spotify:episode:" followed by a 22-character string of letters and digits. The offset must be a multiple of 60 with one decimal place, e.g. “120.0”.  Each entry in this column must be unique to the topic ID.
 * `RANK` is the rank at which the segment has been retrieved.
 * `SCORE` is the system score for the segment.
 * `RUNID` is a unique identifier for the participant and submitted run.
