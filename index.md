@@ -1,6 +1,6 @@
 # TREC Podcasts Track
 
-The Podcasts Track at the [Text Retrieval Conference (TREC)](https://trec.nist.gov) is intended to encourage research in podcast retrieval and access by researchers from the information retrieval, the NLP, and the speech analysis fields. The track which was first organised in 2020 continued with small modifications in 2021 will not run in 2022 but will explore a potential modified new launch in 2023.  In the meanwhile, the [CHIIR workshop on Audio Collection Human Interaction](https://speechretrievalworkshop.github.io/) welcomes participants with ideas about the use cases and usage situations of podcast material!
+The Podcasts Track at the [Text Retrieval Conference (TREC)](https://trec.nist.gov) was intended to encourage research in podcast retrieval and access by researchers from the information retrieval, the NLP, and the speech analysis fields. The track which was first organised in 2020 continued with small modifications in 2021 and while it did not run in 2022 the organisers will explore a potential modified new launch in 2023 in some form.  In 2022, the related [CHIIR workshop on Audio Collection Human Interaction](https://speechretrievalworkshop.github.io/) discussed use cases and usage situations of podcast material.
 
 
 ## Dataset
@@ -9,7 +9,7 @@ The core data for the challenge is the Spotify English-language Podcast Dataset,
 
 ## Tasks
 
-The Podcasts Track has two challenge tasks: segment retrieval and podcast episode summarization.
+The Podcasts Track was organised with two challenge tasks: segment retrieval and podcast episode summarization.
 
 ### Task 1: Segment retrieval
 
