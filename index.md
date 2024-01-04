@@ -5,7 +5,7 @@ The Podcasts Track at the [Text Retrieval Conference (TREC)](https://trec.nist.g
 
 ## Dataset
 
-The core data for the challenge is the Spotify English-language Podcast Dataset, [described here](https://podcastsdataset.byspotify.com/). Unfortunately,  due to shifting priorities, the team no longer has resources to maintain the dataset, and of December 2023,  no longer takes requests to access it.
+The core data for the challenge is the Spotify English-language Podcast Dataset, [described here](https://podcastsdataset.byspotify.com/). Unfortunately,  due to shifting priorities, the team no longer   maintains the dataset, and of December 2023,  no longer takes requests to access it.
 
 ## Tasks
 
